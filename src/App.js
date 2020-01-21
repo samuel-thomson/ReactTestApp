@@ -41,7 +41,7 @@ function App() {
       <PhotoCard 
         image={Lindsey}
         name="Lindsey"
-        description="Lindsey is another swell pal that we met at Hausfest. She's a stunning artest. We hung out and went to Wafflehouse."
+        description="Lindsey is another swell pal that we met at Hausfest. They are a stunning artest. We hung out and went to Wafflehouse."
       />
     </div>
     </div>
