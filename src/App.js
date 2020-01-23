@@ -6,7 +6,22 @@ import Bronson from "./images/Bronson.jpg"
 import jerry from "./images/jerry.jpg"
 import Marc from "./images/Marc.jpeg"
 import Lindsey from "./images/Lindsey.jpg"
+import PhotoCardData from "./PhotoCardData"
 
+function App() {
+  const Card = PhotoCardData.map(single => <PhotoCard 
+    name={single.name} 
+    image={single.image} 
+    description={single.description}/>)
+
+  return (
+    <div>
+      {Card}
+    </div>
+  )
+}
+
+/*
 function App() {
   return (
   <div className="App">
@@ -48,5 +63,5 @@ function App() {
   </div>
   );
 }
-
+*/
 export default App;
