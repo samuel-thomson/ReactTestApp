@@ -1,13 +1,15 @@
 import React from "react"
 
-function PhotoCard(props) {
-    return (
-        <div>
-            <img src={props.image} alt="well shoot!"/>
-            <h3>{props.name}</h3>
-            <p>{props.description}</p>
-        </div>
-    )
+class PhotoCard extends React.Component {
+    render() {
+        return (
+            <div>
+                <img src={this.props.image} alt="well shoot!"/>
+                <h3>{this.props.name}</h3>
+                <p>{this.props.description}</p>
+            </div>
+        )
+    }
 }
 
 export default PhotoCard
