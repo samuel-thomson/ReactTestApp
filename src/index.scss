@@ -1,0 +1,22 @@
+$colorOne : forestgreen;
+$colorTwo: skyblue;
+$colorThree: seashell;
+
+@mixin bigDog() {
+    font-size: 20px;
+    color: $colorTwo;
+}
+
+body {
+    background-color: $colorThree;
+    text-align: center;
+    button {
+        color: red;
+        &:Hover {
+            color: red;
+        }
+    }
+}
+p, h1, h2 {
+    color: $colorOne;
+}

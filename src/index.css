@@ -1,7 +1,17 @@
 body {
-    text-align: center;
-    background-color: ghostwhite;
+  background-color: seashell;
+  text-align: center;
 }
-header {
-    font-size: 60px;
+
+body button {
+  color: red;
 }
+
+body button:Hover {
+  color: red;
+}
+
+p, h1, h2 {
+  color: forestgreen;
+}
+/*# sourceMappingURL=index.css.map */
