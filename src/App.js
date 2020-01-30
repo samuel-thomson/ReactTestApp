@@ -8,17 +8,26 @@ import Marc from "./images/Marc.jpeg"
 import Lindsey from "./images/Lindsey.jpg"
 import PhotoCardData from "./PhotoCardData"
 
-function App() {
-  const Card = PhotoCardData.map(single => <PhotoCard 
-    name={single.name} 
-    image={single.image} 
-    description={single.description}/>)
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      photoData: PhotoCardData
+    }
+  }
 
-  return (
-    <div>
-      {Card}
-    </div>
-  )
+  render() {
+    const Card = this.state.photoData.map(single => <PhotoCard 
+      name={single.name} 
+      image={single.image} 
+      description={single.description}/>)
+  
+    return (
+      <div>
+        {Card}
+      </div>
+    )
+  }
 }
 
 /*
