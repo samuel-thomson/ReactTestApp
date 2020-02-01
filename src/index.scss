@@ -1,6 +1,6 @@
-$colorOne : forestgreen;
+$colorOne : grey;
 $colorTwo: skyblue;
-$colorThree: seashell;
+$colorThree: white;
 
 @mixin bigDog() {
     font-size: 20px;
@@ -10,6 +10,7 @@ $colorThree: seashell;
 body {
     background-color: $colorThree;
     text-align: center;
+    margin: 20px;
     button {
         color: red;
         &:Hover {

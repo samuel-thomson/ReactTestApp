@@ -1,6 +1,7 @@
 body {
-  background-color: seashell;
+  background-color: white;
   text-align: center;
+  margin: 20px;
 }
 
 body button {
@@ -12,6 +13,6 @@ body button:Hover {
 }
 
 p, h1, h2 {
-  color: forestgreen;
+  color: grey;
 }
 /*# sourceMappingURL=index.css.map */
