@@ -2,6 +2,7 @@ import goodBoi from "./images/goodBoi.jpg"
 import Bronson from "./images/Bronson.jpg"
 import jerry from "./images/jerry.jpg"
 import Lindsey from "./images/Lindsey.jpg"
+import Marc from "./images/Marc.jpeg"
 
 const PhotoCardData = [
     {image: goodBoi, 
@@ -19,6 +20,10 @@ const PhotoCardData = [
     {image: Lindsey, 
     name: "Lindsey",
     description: "Lindsey is another good friend that I made in Georgia. They are an incredible artist. We got Waffle House together.",
+    },    
+    {image: Marc, 
+    name: "Marc",
+    description: "This is my bruda from another motha Marc. I'm so proud of this kid.",
     }
 ]
 
