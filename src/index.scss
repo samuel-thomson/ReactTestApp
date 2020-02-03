@@ -22,6 +22,18 @@ p, h1, h2 {
     color: $colorOne;
 }
 
-.cardRow {
-    display: flex;
+.card-container {
+
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+}
+@media (min-width: 900px) {
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.card {
+    flex: 1;
 }

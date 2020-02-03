@@ -23,7 +23,7 @@ class App extends React.Component {
       description={single.description}/>)
   
     return (
-      <div class="cardRow">
+      <div className="card-container">
         {Card}
       </div>
     )
