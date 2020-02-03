@@ -21,3 +21,7 @@ body {
 p, h1, h2 {
     color: $colorOne;
 }
+
+.cardRow {
+    display: flex;
+}
