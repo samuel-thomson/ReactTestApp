@@ -6,6 +6,14 @@ $colorThree: white;
     font-size: 20px;
     color: $colorTwo;
 }
+header {
+    background-color: grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1 {
+        color: white;
+    }
+}
 
 body {
     background-color: $colorThree;
